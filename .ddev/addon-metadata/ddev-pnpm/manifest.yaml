@@ -1,0 +1,9 @@
+name: ddev-pnpm
+repository: envsa/ddev-pnpm
+version: 1.0.0
+install_date: "2025-04-22T13:51:29+02:00"
+project_files:
+    - commands/web/pnpm
+    - web-build/Dockerfile.pnpm
+global_files: []
+removal_actions: []

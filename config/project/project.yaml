@@ -1,0 +1,70 @@
+dateModified: 1745326446
+email:
+  fromEmail: wttewaall@gmail.com
+  fromName: 'Wickenburgh Voedselbos'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  localfs:
+    hasUrls: true
+    name: LocalFS
+    settings:
+      path: $FS_BASE_PATH
+    type: craft\fs\Local
+    url: $FS_BASE_URL
+meta:
+  __names__:
+    5cf20031-a955-4680-a3b7-6f5128ace6f4: Icons # Icons
+    9e342ada-9f00-4717-832a-ef4c51688ef8: Page # Page
+    35ba7bc6-6553-42d0-837a-67e260cc0f97: Simple # Simple
+    49bcaad2-5b75-4845-b240-71e6df71fbfc: 'Single image' # Single image
+    74f6b7df-5d19-4dc8-8af0-1cf8a94092bf: 'Single Image Block' # Single Image Block
+    709c93aa-1cc4-45ca-95f2-1091eb53ec65: 'Wickenburgh Voedselbos' # Wickenburgh Voedselbos
+    936bce7c-ddb5-4fed-ad06-22095b1faa5e: Pages # Pages
+    aed8663f-3927-42ab-a671-95687af509e3: Images # Images
+    c94981df-856f-4761-874e-277e48585b5b: 'Rich Text' # Rich Text
+    d81947ce-f1fc-4576-a110-d7f608339e9a: 'Rich Text Block' # Rich Text Block
+    efe86774-98d7-40ef-b47d-85948d690768: 'Wickenburgh Voedselbos' # Wickenburgh Voedselbos
+    f8094eff-fc83-4876-8554-834cb9196217: Photos # Photos
+plugins:
+  assetusage:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  matrix-extended:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.1.0
+  preview-mate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Wickenburgh Voedselbos'
+  retryDuration: null
+  schemaVersion: 5.7.0.3
+  timeZone: Europe/Amsterdam
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: f8094eff-fc83-4876-8554-834cb9196217 # Photos
+  require2fa: false
+  requireEmailVerification: true

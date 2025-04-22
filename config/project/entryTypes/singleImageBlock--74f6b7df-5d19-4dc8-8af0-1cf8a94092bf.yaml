@@ -1,0 +1,68 @@
+color: null
+fieldLayouts:
+  4541ea4f-5bd0-4776-af31-afab68e899a2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-04-22T12:41:52+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 920ec2a0-386c-4707-8597-6702ed9e965a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-04-22T12:43:31+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 49bcaad2-5b75-4845-b240-71e6df71fbfc # Single image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5c5dc6e-647b-4731-b5b1-94f7e605b8fd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4fd7057c-95b4-48e9-93b7-02d7e95ed923
+        userCondition: null
+handle: singleImageBlock
+hasTitleField: true
+icon: image-polaroid
+name: 'Single Image Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: nl
+name: 'Wickenburgh Voedselbos'
+primary: true
+siteGroup: 709c93aa-1cc4-45ca-95f2-1091eb53ec65 # Wickenburgh Voedselbos
+sortOrder: 1

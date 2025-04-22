@@ -1,0 +1,35 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 9e342ada-9f00-4717-832a-ef4c51688ef8 # Page
+  -
+    uid: 74f6b7df-5d19-4dc8-8af0-1cf8a94092bf # Single Image Block
+  -
+    uid: d81947ce-f1fc-4576-a110-d7f608339e9a # Rich Text Block
+handle: pages
+maxAuthors: 1
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  efe86774-98d7-40ef-b47d-85948d690768: # Wickenburgh Voedselbos
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/page.twig
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: 756fd1be-93ec-4a29-8028-3d9e65f32b5c
+type: structure

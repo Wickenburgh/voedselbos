@@ -1,3 +1,4 @@
+import tailwindcss from '@tailwindcss/vite'
 import ViteRestart from 'vite-plugin-restart';
 import { VitePWA } from 'vite-plugin-pwa';
 
@@ -17,6 +18,7 @@ export default ({ command }) => ({
     },
 
     plugins: [
+        tailwindcss(),
         ViteRestart({
             restart: ['./templates/**/*']
         }),
@@ -47,6 +49,7 @@ export default ({ command }) => ({
     server: {
         host: 'localhost',
         port: 3000,
-        origin: 'https://voedselbos.ddev.site:3000'
+        origin: 'https://voedselbos.ddev.site:3000',
+        cors: true
     }
 });

@@ -1,0 +1,5 @@
+{% set pageBuilder = pageBuilder ?? entry.pageBuilder %}
+
+{% for part in pageBuilder %}
+  {% include '_components/parts/' ~ part.type with { part: part } %}
+{% endfor %}
